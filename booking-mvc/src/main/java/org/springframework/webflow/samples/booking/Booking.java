@@ -25,7 +25,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 /**
  * A Hotel Booking made by a User.
  */
-@Entity 
+@Entity
 @BookingDateRange
 public class Booking implements Serializable {
 
